@@ -6,15 +6,15 @@ import About from './components/About';
 import Projects from './components/Project';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
     <div className="App">
-	  <h1>Welcome</h1>
-	  
-	  <main><Header /><About /><Projects /><Skills /><ContactMe /></main>
-	  
-      
+          <h1>Welcome</h1>
+          <Chatbot />
+          <main><Header /><About /><Projects /><Skills /><ContactMe /></main>
+
     </div>
   );
 }
