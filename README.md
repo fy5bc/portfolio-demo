@@ -81,3 +81,7 @@ REACT_APP_PROMPT_ID=your_saved_prompt_id
 ```
 
 Start the development server with `npm start` or build for production with `npm run build`. The built files can be deployed anywhere (for example GitHub Pages) and accessed worldwide.
+
+### Automatic deployment
+
+This repository includes a GitHub Actions workflow that publishes the app to GitHub Pages whenever commits are pushed to the `work` branch. To enable it, add a repository secret named `GH_PAT` containing a personal access token with `public_repo` permissions.
