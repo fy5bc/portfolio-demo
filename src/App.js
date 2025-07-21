@@ -6,13 +6,14 @@ import About from './components/About';
 import Projects from './components/Project';
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import ChatBot from './components/ChatBot';
 
 function App() {
   return (
     <div className="App">
 	  <h1>Welcome</h1>
 	  
-	  <main><Header /><About /><Projects /><Skills /><ContactMe /></main>
+          <main><Header /><About /><Projects /><Skills /><ContactMe /><ChatBot /></main>
 	  
       
     </div>

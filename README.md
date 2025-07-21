@@ -68,5 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# portfolio-demo" 
-"# portfolio-demo" 
+"# portfolio-demo"
+"# portfolio-demo"
+
+## ChatBot Usage
+
+This project includes a simple ChatGPT-style interface. To use it, create a `.env` file in the project root containing:
+
+```
+REACT_APP_OPENAI_API_KEY=your_openai_key
+REACT_APP_PROMPT_ID=your_saved_prompt_id
+```
+
+Start the development server with `npm start` or build for production with `npm run build`. The built files can be deployed anywhere (for example GitHub Pages) and accessed worldwide.
+
+### Automatic deployment
+
+This repository includes a GitHub Actions workflow that publishes the app to GitHub Pages whenever commits are pushed to the `work` branch. To enable it, add a repository secret named `GH_PAT` containing a personal access token with `public_repo` permissions.
